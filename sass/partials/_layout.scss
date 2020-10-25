@@ -1,0 +1,98 @@
+html,
+body {
+  height: 100%;
+}
+nav {
+  background-color: $primary;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: $background;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.home {
+  text-align: center;
+  text-transform: none;
+}
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: $primary;
+  margin-top: 2rem;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #8d8d8d;
+  padding: 1em;
+}
+.container {
+  justify-content: center;
+}
+.row {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 966px;
+}
+.square-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+footer a {
+  color: #8d8d8d;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer i {
+  color: white;
+  font-size: 1em;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+@media only screen and (min-width: 451px) {
+  .navbar-brand {
+    margin-left: 40px;
+  }
+  .navbar__container {
+    margin-right: 40px;
+  }
+  footer {
+    display: flex;
+  }
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__info--left {
+    margin-left: 40px;
+  }
+  .footer__info--right {
+    align-content: flex-end;
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 450px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer__info--left {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .footer__info--right {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}

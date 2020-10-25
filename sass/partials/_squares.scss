@@ -1,0 +1,73 @@
+.square {
+  background: white;
+  border-radius: 5%;
+  box-shadow: $box-shadow;
+  width: 211px;
+  height: 211px;
+  border: 3px solid transparent;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+
+  &.one {
+    width: 211px;
+    height: 211px;
+    border-color: $square1;
+    background: $square1;
+  }
+
+  &.two {
+    width: 211px;
+    height: 211px;
+    border-color: $square1;
+    background: $square1;
+  }
+
+  &.three {
+    width: 211px;
+    height: 211px;
+    border-color: $square3;
+    background: $square1;
+  }
+  &.four {
+    width: 211px;
+    height: 211px;
+    border-color: $square1;
+    background: $square1;
+  }
+
+  &.five {
+    width: 211px;
+    height: 211px;
+    border-color: $square1;
+    background: $square1;
+  }
+
+  &.six {
+    width: 211px;
+    height: 211px;
+    border-color: $square1;
+    background: $square3;
+  }
+  &.seven {
+    width: 211px;
+    height: 211px;
+    border-color: $square1;
+    background: $square1;
+  }
+
+  &.eight {
+    width: 211px;
+    height: 211px;
+    border-color: $square3;
+    background: $square1;
+  }
+}
+
+.square-container {
+  margin-top: 1rem;
+  margin-bottom: 6rem;
+
+  > div {
+    margin-bottom: 1rem;
+  }
+}
